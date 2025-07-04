@@ -1,0 +1,244 @@
+body, ul, li, h1, h2, a{
+  margin: 0;
+  padding: 0;
+  font-family: tahoma;
+}
+p{
+  font-size: 75%;
+}
+
+.text h1{
+  color: #000000;
+  display: inline-block;
+  font-size: 50px;
+
+}
+.banner{
+  position: relative;
+}
+.banner img{
+  max-width: 100%;
+  height: 50vh;
+
+}
+  .banner .text{
+    color: #000000;
+    padding: 0px 0;
+    font-size: 8px;
+    position: absolute;
+    left: 0;
+    top: 10%;
+    font-size: 20px;
+    padding-left: 1px;
+    margin-left: 29px;
+}
+
+.logo{
+  position: relative;
+  top: 0;
+  left: -1px;
+  width: 34px;
+  height: 30px;
+}
+  .COLLEGE{
+  position: absolute;
+  top: 0.15%;
+  margin-left: 36px;
+  left: -9px;
+  font-size: 7px;
+  color: black;
+   font-weight: bold;
+}
+.login{
+  text-decoration: none;
+  color: #000000;
+  font-size: 7px;
+  padding-left: 240px;
+  top: 1.55%;
+  position: absolute;
+  font-weight: bold;
+   }
+.create{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 5px;
+  position: absolute;
+  top: 1.2%;
+  background-color:  #0086b3;
+  border-radius: 2px;
+  padding: 4px 10px;
+  margin-left: 263px;
+  }
+ .profile{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 5px;
+  position: relative;
+  background-color:  	 #0086b3;
+  border-radius: 2px;
+  padding: 4px 10px;
+  top: -47px;
+  left: 2.6%;
+
+ }
+  .more{
+    text-decoration: none;
+    color: #0086b3;
+    font-size: 5px;
+    position: relative;
+    background-color: none;
+    border: 1px solid #0086b3;
+    border-radius: 2px;
+    padding: 3px 10px;
+    top: -47px;
+    left: 3.8%;
+    font-weight: bold;
+  }
+
+.three-columns{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+}
+
+.column{
+  flex: 1;
+  text-align: left;
+  display: block;
+}
+
+h6{
+  font-size: 10px;
+  font-weight: bold;
+  padding: 0px 10px;
+  margin-top: -7px;
+}
+
+.main img{
+  width: 105px;
+  margin-top: -33px;
+  margin-left: -10px;
+  height: 8vh;
+  border-radius: 2px;
+}
+
+ .para{
+   margin-left: -8px;
+   font-size: 4.5px;
+}
+
+.pera{
+   margin-left: -8px;
+   font-weight: bold;
+   color:#004d66;
+   font-size: 6px;
+}
+
+.learn{
+    text-decoration: underline;
+    color:#0086b3;
+    font-size: 5px;
+    margin-left: -9px;
+    font-weight: bold;
+    margin-top: -5%;
+    position: absolute;
+  }
+
+.great{
+  display: flex;
+  justify-content: space-between;
+  gap: 67px;
+  padding: 0px 20px;
+}
+.about{
+  display: flex;
+  margin-left: 40px;
+}
+
+.emp{
+  margin-top: -45px;
+  font-size: 4.5px;
+}
+
+.section{
+  width: 93%;
+  height: 16.5vh;
+  margin-top: -10px;
+  padding-left: 3.4%;
+  border-radius: 2px;
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 90%;
+  max-width: 400px;
+  margin: 40px auto;
+}
+.button{
+  padding: 14px;
+  font-size: 16px;
+  font-weight: 600px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+  width: 100%;
+}
+
+.button1{
+  background-color:#0099ff;
+  color: white;
+  border: none;
+}
+
+.button2{
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+
+.button2:hover{
+  background-color: #f2f2f2;
+}
+
+
+@media screen and (max-width: 600px){
+body, ul, li, h1, h2, a{
+  margin: 0;
+  padding: 0;
+  font-family: tahoma;
+}
+p{
+  font-size: 30%;
+}
+
+.text h1{
+  color: #ffffff;
+  display: inline-block;
+  font-size: 21px;
+  font-weight: bold;
+  margin-left: -2px;
+
+}
+.banner{
+  position: relative;
+}
+.banner img{
+  width: 100%;  
+  height: 19vh;
+  margin-top: -5px;
+}
+.banner .text{
+  color: #ffffff;
+  padding: 0px 0;
+  font-size: 8px;
+  position: absolute;
+  left: -19px;
+  top: 10%;
+  font-size: 19px;
+  font-weight: bold;
+}
+}
