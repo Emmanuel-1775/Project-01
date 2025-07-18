@@ -149,7 +149,7 @@
          margin-left: -8px;
          font-weight: bold;
          color:#004d66;
-         font-size: 15px;
+         font-size: 5px;
       }
 
       .learn{
@@ -231,7 +231,7 @@
         body, ul, li, h1, h2, a{
         margin: 0;
          padding: 0;
-        font-family: tahoma;
+        font-family: 'Inter', sans-serif;
       }
 
         header{
@@ -287,7 +287,7 @@
           font-family: helvetica;
           position: absolute;
           top: 22px;
-          background-color: #002080;
+          background-color:#032a8c;
           border: 1px solid #9999ff;
           border-radius: 6px;
           padding: 10px 35px;
@@ -347,7 +347,7 @@
 
         .hod {
           font-size: 1rem;
-          color:  #444;
+          color: #4B5563;
           line-height: 1.7;
           margin-bottom: 32px;
           margin-top: 30px;
@@ -435,7 +435,7 @@
         }
 
         h6{
-          font-size: 35px;
+          font-size: 32px;
           font-weight: bold;
           padding: 0px 0px;
           margin-top: 0px;
@@ -454,17 +454,18 @@
         }
 
          .para{
-           font-size: 15px;
+           font-size: 13px;
            width: 320px;
            margin: 0 auto;
-           line-height: 2.3;
-           color: #444;
+           line-height: 2.5;
+           color: #4B5563;
+           margin-top: 16px;
         }
 
         .pera{
            font-weight: bold;
            color:black;
-           font-size: 17px;
+           font-size: 14px;
            width: 320px;
            margin: 0 auto;
            margin-top: 20px;
@@ -473,10 +474,10 @@
         .learn{
             text-decoration: underline;
             color:#002080;
-            font-size: 15px;
+            font-size: 13px;
             margin-left: -9px;
             font-weight: bold;
-            margin: 0 auto;
+            margin: -7px auto;
           }
 
         .main{
@@ -485,16 +486,17 @@
 
         .fot{
           padding-top: 25px;
+          text-align: center;
         }
         
         .emp{
-          font-size: 15px;
+          font-size: 13px;
           margin: 0 auto;
           width: 320px;
-          line-height: 2.3;
+          line-height: 2.5;
           padding-top: 55px;
-          
-        }
+          margin-left: 27px;
+         }
 
         .section{
           width: 93%;
@@ -557,27 +559,27 @@
            }
         
           .why{
-            font-size: 37px;
+            font-size: 33px;
             font-weight: bold;
             margin-left: 45px;
             margin-top: 8px;
           }
 
         .our{
-          font-size: 15px;
+          font-size: 13px;
           margin-left: 45px;
           margin-top: 25px;
           width: 262px;
-          line-height: 2.3;
-          color: #444;
+          line-height: 2.5;
+          color: #4B5563;
         }
 
         .yo{
-          background-color:#002080;
+          background-color:#032a8c;
           color: white;
           border-radius: 4px;
           text-decoration: none;
-          font-size: 0.95rem;
+          font-size: 13px;
           transition: all 0.3s ease;
           display: inline-block;
           padding: 11px 73px;
@@ -596,39 +598,38 @@
           height: 210vh;
         }
 
-      
+        .list{
+          list-style: none;
+          margin-top: 130px;
+          padding: 0;
+          width: 320px;
+          transform: translate(22px);
+          color: #4B5563;
+        }
 
-.list{
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
+        .list li{
+          display: flex;
+          align-items: flex-start;
+          gap: 12px;
+          background: #f8f9fb;
+          border-radius: 12px;
+          padding: 20px;
+          margin-bottom: 16px;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+          font-size: 13px;
+          font-family: 'Inter', sans-serif;
+          line-height: 2.5;
+        }
 
-.list li{
-  display: flex;
-  align-items: flex-start;
-  gap: 12px;
-  background: #f8f9fb;
-  border-radius: 12px;
-  padding: 20px;
-  margin-bottom: 16px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-  font-size: 16px;
-  line-height: 1.6;
-}
+         .list li::before {
+          content: "";
+          width: 14px;
+          height: 14px;
+          background: #032a8c;
+          border-radius: 3px;
+          margin-top: 6px;
+          flex-shrink: 0;
+          box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+        }
 
- .list li::before {
-  content: "";
-  width: 14px;
-  height: 14px;
-  background: #3f51b5; /* Blue square */
-  border-radius: 3px;
-  margin-top: 6px; /* Align with text */
-  flex-shrink: 0;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
-}
-
-    .all{
-      margin-top: 130px;
-    }
-  }
+          }
